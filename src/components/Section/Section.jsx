@@ -11,7 +11,8 @@ const Section = (props) => {
                 {information.photos.map((p) => <img src={p} alt={information.title}/> )}   
             </div>
 
-            <button>{">"} Next</button>
+            <button>Next {">"}</button>
+            <button className={styles.home_btn}>{"<"} Home</button>
         </div>
     )
 }
