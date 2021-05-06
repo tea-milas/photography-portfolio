@@ -1,0 +1,33 @@
+.contact {
+    margin: 7em auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    img {
+        width: 400px;
+    }
+
+    p {
+        width: 50%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .contact {
+          margin: 2em auto;
+          img {
+            width: 300px;
+          }
+          p {
+            width:100%;
+            margin-bottom: 15%;
+          }
+      }
+  }
