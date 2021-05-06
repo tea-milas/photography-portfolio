@@ -19,7 +19,7 @@
         justify-content: space-evenly;
 
         img {
-            max-height: 600px;
+            max-width: 93%;
             margin: 0.5em;
         }
     }
@@ -34,5 +34,43 @@
         padding: 10px 20px;
         font-size: 20px;
         background-color: transparent;
+    }
+
+    .home_btn {
+        left: 0;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    .section {
+        h1 {
+            margin-bottom: 1em;
+        }
+    
+        .images {
+            margin-bottom: 110px;
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+    
+            img {
+                max-height: 600px;
+                margin: 0.5em;
+            }
+        }
+        
+    
+        button {
+            right: 0;
+            padding: 0;
+            margin: 50px 20px;
+            font-size: 18px;
+        }
+
+        
     }
 }
