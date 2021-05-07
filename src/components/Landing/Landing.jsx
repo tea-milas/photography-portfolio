@@ -5,7 +5,7 @@ import info from '../../data/Info.js'
 
 const Landing = () => {
     const history = useHistory();
-
+    
     return (
         <div className={styles.section_title}>
             {info.map(i =>  <div className={styles.listing}>

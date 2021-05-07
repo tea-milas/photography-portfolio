@@ -19,13 +19,16 @@
         justify-content: space-evenly;
 
         img {
-            max-width: 93%;
+            width: auto;
+            max-height: 600px;
             margin: 0.5em;
         }
     }
     
 
     button {
+        font-family: 'Didact Gothic', sans-serif;;
+        cursor: pointer;
         position: absolute;
         bottom: 0;
         right: 20px;

@@ -4,7 +4,10 @@ import styles from './Footer.module.scss'
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <p><a href="https://www.instagram.com/milastea/" target="_blank" rel="noreferrer">@milastea</a></p>
+            <p>
+                <a href="https://www.instagram.com/milastea/" target="_blank" rel="noreferrer">@milastea </a> |  
+                <a href="https://www.instagram.com/moonshinefaerie/" target="_blank" rel="noreferrer"> @moonshinefaerie</a>
+            </p>
             <p>Made by Tea Milas | May 2021</p>
         </footer>
     )

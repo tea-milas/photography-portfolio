@@ -14,6 +14,10 @@ nav {
         a {
             color: black;
             text-decoration: none;
+
+            &:hover {
+                color: #cc4124;
+            }
         }
     }
     
@@ -30,7 +34,7 @@ nav {
             font-size: 18px;
 
             &:hover {
-            color: rgb(205, 108, 63);
+            color: #cc4124;
             cursor: pointer;
             text-decoration: underline;
             }

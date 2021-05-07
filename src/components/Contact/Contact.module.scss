@@ -1,19 +1,52 @@
 .contact {
-    margin: 7em auto;
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  margin: 7em auto;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
 
-    img {
-        width: 400px;
+  img {
+      width: 400px;
+  }
+
+  .contact_text {
+    width: 50%;
+
+    form {
+      margin-top: 3em;
+      display: flex;
+      flex-direction: column;
+
+      input, select, textarea, option, button {
+        font-family: inherit;
+        font-size: 15px;
+        border: 1px solid rgb(233, 233, 232) ;
+        border-radius: 5px;
+        padding: 4px 0;
+      }
+
+      textarea, input {
+        padding-left: 10px;
+      }
+
+      label, button {
+        margin: 2% 0;
+      }
+
+      button:hover , button:active {
+        background-color: #cc4124;
+        border-color: #cc4124;
+        color: white;
+        cursor: pointer;
+      }
     }
 
     p {
-        width: 50%;
+      text-align: left;
     }
+  }
 }
 
 @media only screen 
