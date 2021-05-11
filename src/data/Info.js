@@ -1,7 +1,6 @@
 import portrait from '../assets/img/DSC_1198.jpg'
 import prom from '../assets/img/DSC_0187-2.jpg'
 import travel from '../assets/img/DSC_0902.jpg'
-//import products from '../assets/img/DSC_0928.jpg'
 
 //PORTRAITS
 import p1 from '../assets/img/portraits/DSC_1196.jpg'
@@ -101,11 +100,7 @@ import pr24 from '../assets/img/prom/DSC_1305.jpg'
 import pr25 from '../assets/img/prom/DSC_1324.jpg'
 import pr26 from '../assets/img/prom/DSC_1373.jpg'
 
-import prod1 from '../assets/img/products/makeup_pallete.jpg'
-import prod2 from '../assets/img/products/makeup_pallete2.jpg'
-import prod3 from '../assets/img/products/magic-moments-afrodita.jpg'
-import prod4 from '../assets/img/products/magic-moments-afrodita2.jpg'
-
+//EVENTS
 import e1 from '../assets/img/events/DSC_0281.jpg'
 import e2 from '../assets/img/events/DSC_0296-2.jpg'
 import e3 from '../assets/img/analog/IMG_5291.JPEG'
@@ -116,6 +111,7 @@ import e7 from '../assets/img/events/DSC_1161.jpg'
 import e8 from '../assets/img/events/DSC_1171.jpg'
 import e9 from '../assets/img/events/DSC_1170.jpg'
 
+//ANALOG
 import a1 from '../assets/img/analog/8286BC21-7266-4A26-A74E-D47BEC026C52.jpg'
 import a2 from '../assets/img/analog/4B6F8610-ED26-4895-9A2A-50E3953BC1B7.jpg'
 import a3 from '../assets/img/analog/6170E3B2-2FE8-459E-B612-4CF84B454C1C.JPG'
@@ -175,7 +171,6 @@ const sectionInfo = [
     {title:"Travel", img: travel, photos: [{img:t7, alt: "Amsterdam canal with a boat"}, {img:t6, alt: "Amsterdam"},{img:t8, alt: "Amsterdam canal with flowers in front"},{img:t9, alt: "Amsterdam houses by the canal and a little boat"},{img:t10, alt: "Antwerp train station, girl on stairs"}, 
                                             {img:t11, alt: "Pula square"},{img:t1, alt: "Den Haag analog"},{img:t2, alt: "Ljubljana"},{img:t12, alt: "Amsterdam Spaklerweg buildings"}, {img:t3, alt: "Scheveningen pier"}, {img:t4, alt: "Venice square"}, {img:t5, alt: "Venice two people selling paintings"},
                                             {img:t13, alt: "Venice, a bar at night"},{img:t14, alt: "Venice, view from the bridge"},{img:t15, alt: "Venice boat"},{img:t16, alt: "Venice boat 2"},{img:t17, alt: "Venice secret alley"},{img:t18, alt: "Opatija"}]},
-    //{title:"Products", img: products, photos: [prod1, prod2, prod3, prod4]},
     {title:"Analog", img: a1, photos: [a1,a2,a3,a4,a5,a6, a7, a25, a8, a9,  a13, a10, a11, a15, a12, a14, a16, a17, a18, a19, a20, a22, a21, a23, a24]},
     {title:"Events", img: e3, photos: [{img:e1, alt: "Bruno - PickUp music festival"},{img:e2, alt: "Mihaela - PickUp music festival"}, {img:e3, alt: "Mac Demarco - BestKeptSecret 2019"},  {img:e4, alt: "Mac Demarco - BestKeptSecret 2019"},  {img:e5, alt: "Big Thief - BestKeptSecret 2019"},  
                                         {img:e6, alt: "Pride Amsterdam"}, {img:e7, alt: "Pride Amsterdam"}, {img:e8, alt: "Pride Amsterdam"}, {img:e9, alt: "Pride Amsterdam"}]}
