@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/photography-portfolio/static/css/main.72c4f4c7.chunk.css",
-    "main.js": "/photography-portfolio/static/js/main.5f3682bc.chunk.js",
-    "main.js.map": "/photography-portfolio/static/js/main.5f3682bc.chunk.js.map",
+    "main.js": "/photography-portfolio/static/js/main.b1cd61e0.chunk.js",
+    "main.js.map": "/photography-portfolio/static/js/main.b1cd61e0.chunk.js.map",
     "runtime-main.js": "/photography-portfolio/static/js/runtime-main.cfc98785.js",
     "runtime-main.js.map": "/photography-portfolio/static/js/runtime-main.cfc98785.js.map",
     "static/js/2.d4928724.chunk.js": "/photography-portfolio/static/js/2.d4928724.chunk.js",
@@ -142,16 +142,12 @@
     "static/media/img0022.055ba42e.jpg": "/photography-portfolio/static/media/img0022.055ba42e.jpg",
     "static/media/img0024.331c5f16.jpg": "/photography-portfolio/static/media/img0024.331c5f16.jpg",
     "static/media/img0027.09040a5c.jpg": "/photography-portfolio/static/media/img0027.09040a5c.jpg",
-    "static/media/louai_kingsday.f3719191.JPEG": "/photography-portfolio/static/media/louai_kingsday.f3719191.JPEG",
-    "static/media/magic-moments-afrodita.428b0013.jpg": "/photography-portfolio/static/media/magic-moments-afrodita.428b0013.jpg",
-    "static/media/magic-moments-afrodita2.d02448fd.jpg": "/photography-portfolio/static/media/magic-moments-afrodita2.d02448fd.jpg",
-    "static/media/makeup_pallete.94bd155b.jpg": "/photography-portfolio/static/media/makeup_pallete.94bd155b.jpg",
-    "static/media/makeup_pallete2.de576131.jpg": "/photography-portfolio/static/media/makeup_pallete2.de576131.jpg"
+    "static/media/louai_kingsday.f3719191.JPEG": "/photography-portfolio/static/media/louai_kingsday.f3719191.JPEG"
   },
   "entrypoints": [
     "static/js/runtime-main.cfc98785.js",
     "static/js/2.d4928724.chunk.js",
     "static/css/main.72c4f4c7.chunk.css",
-    "static/js/main.5f3682bc.chunk.js"
+    "static/js/main.b1cd61e0.chunk.js"
   ]
 }
