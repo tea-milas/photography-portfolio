@@ -8,7 +8,7 @@ const Landing = () => {
     
     return (
         <div className={styles.section_title}>
-            {info.map(i =>  <div className={styles.listing}>
+            {info.map(i =>  <div className={styles.listing} key={i.title}>
                                 <img className={styles.listing_img} src={i.img} alt={i.title} onClick={() => history.push("/"+ i.title)}/>
                                 <div className={styles.listing_text} onClick={() => history.push("/"+ i.title)}>
                                     <div className={styles.text}>
