@@ -7,8 +7,8 @@ const Contact = () => {
         <div className={styles.contact}>
             <section className={styles.contact_text}>
                 <p>Hi there!
-                <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquam blanditiis accusantium quia in laudantium dicta a, porro modi tenetur aspernatur, 
-                    quaerat provident eum veritatis fuga magnam beatae voluptatem ipsam!
+                <br/>I'm a self taught photographer who's primarily focusing on taking portraits in natural light and capturing little moments of our daily lives that would otherwise be forgotten.
+                <br/><br/>I'm currently London based, but travel regularly between Amsterdam and Zagreb (when circumstances allow).  
                 <br/><br/>For  collaborations / prints /  general inquiries fill the form below: </p>
                 
                 <form action="mailto:teamilas@gmail.com" method="post" enctype="text/plain">

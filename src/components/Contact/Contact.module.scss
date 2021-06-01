@@ -52,15 +52,22 @@
 @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 1) {
       .contact {
           margin: 2em auto;
           img {
+            margin-top: 1em;
             width: 300px;
+            border-radius: 5px;
           }
-          p {
-            width:100%;
-            margin-bottom: 15%;
+          .contact_text {
+            width: 100%;
+
+            p {
+              width:100%;
+              margin-bottom: 15%;
+            }
           }
+
       }
   }
