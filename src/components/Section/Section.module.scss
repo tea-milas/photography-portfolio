@@ -63,8 +63,8 @@
             justify-content: space-evenly;
     
             img {
-                height: auto;
-                width: 90%;
+                max-height: 500px;
+                width: 90vw;
                 margin: 0.5em;
             }
         }
