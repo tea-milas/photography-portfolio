@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/photography-portfolio/static/css/main.ddfecf9d.chunk.css",
-    "main.js": "/photography-portfolio/static/js/main.aa58a105.chunk.js",
-    "main.js.map": "/photography-portfolio/static/js/main.aa58a105.chunk.js.map",
+    "main.css": "/photography-portfolio/static/css/main.9857810e.chunk.css",
+    "main.js": "/photography-portfolio/static/js/main.66d79311.chunk.js",
+    "main.js.map": "/photography-portfolio/static/js/main.66d79311.chunk.js.map",
     "runtime-main.js": "/photography-portfolio/static/js/runtime-main.cfc98785.js",
     "runtime-main.js.map": "/photography-portfolio/static/js/runtime-main.cfc98785.js.map",
     "static/js/2.d4928724.chunk.js": "/photography-portfolio/static/js/2.d4928724.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3bb74c36.chunk.js": "/photography-portfolio/static/js/3.3bb74c36.chunk.js",
     "static/js/3.3bb74c36.chunk.js.map": "/photography-portfolio/static/js/3.3bb74c36.chunk.js.map",
     "index.html": "/photography-portfolio/index.html",
-    "static/css/main.ddfecf9d.chunk.css.map": "/photography-portfolio/static/css/main.ddfecf9d.chunk.css.map",
+    "static/css/main.9857810e.chunk.css.map": "/photography-portfolio/static/css/main.9857810e.chunk.css.map",
     "static/js/2.d4928724.chunk.js.LICENSE.txt": "/photography-portfolio/static/js/2.d4928724.chunk.js.LICENSE.txt",
     "static/media/125AA341-DE8E-4D77-814E-7455D5614074.4c593f41.JPG": "/photography-portfolio/static/media/125AA341-DE8E-4D77-814E-7455D5614074.4c593f41.JPG",
     "static/media/1889F250-1332-45F9-A1FB-A8861A25F7BE.a4964fa4.JPG": "/photography-portfolio/static/media/1889F250-1332-45F9-A1FB-A8861A25F7BE.a4964fa4.JPG",
@@ -147,7 +147,7 @@
   "entrypoints": [
     "static/js/runtime-main.cfc98785.js",
     "static/js/2.d4928724.chunk.js",
-    "static/css/main.ddfecf9d.chunk.css",
-    "static/js/main.aa58a105.chunk.js"
+    "static/css/main.9857810e.chunk.css",
+    "static/js/main.66d79311.chunk.js"
   ]
 }
