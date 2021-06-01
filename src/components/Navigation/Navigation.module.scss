@@ -114,3 +114,25 @@ nav {
     }
 
 }
+
+// SAFARI
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (-webkit-max-device-pixel-ratio:2) {
+    nav {
+        .hamburger {
+            padding-right: 0;
+            font-size: 50px;
+            margin-right: 20px;
+        }
+        
+        .mobile_menu {
+            .close {
+                font-size: 26px;
+                position: absolute ;
+                top: 25px;
+                right: 0;
+                margin-right: 0px;
+            }
+        }
+    }
+}

@@ -37,8 +37,8 @@ const Section = (props) => {
                 {information.photos.map((p) => p.img ? <img src={p.img} alt={p.alt}/> :<img src={p} alt={information.title}/> )}   
             </div>
 
-            <button onClick={goToNext}>{next} {">"}</button>
-            <button className={styles.home_btn} onClick={() => history.push("/")}>{"<"} Home</button>
+            <button className={styles.home_btn} onClick={() => history.push("/")}>{"<"} Back</button>
+            <button className={styles.next_btn} onClick={goToNext}>{next} {">"}</button>
         </div>
     )
 }

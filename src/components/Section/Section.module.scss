@@ -62,11 +62,10 @@
             justify-content: space-evenly;
     
             img {
+                max-width: 100%;
                 height: auto;
-                width: 320px;
             }
         }
-        
     
         button {
             right: 0;
@@ -76,5 +75,44 @@
         }
 
         
+    }
+}
+
+// SAFARI
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (-webkit-max-device-pixel-ratio:2) {
+    .section {
+        width: 100%;
+
+        .images {
+            width: 320px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 6em;
+            
+            img {
+                align-self: flex-start;
+                width: 100%;
+            }
+        }
+    
+        button {
+            position: absolute;
+            bottom: 0;
+            padding: 0;
+            margin:  50px 22px;
+            font-size: 10px;  
+            width: 50%;
+        }
+
+        .next_btn {
+            right: 0;
+            text-align: right;
+        }
+
+        .home_btn {
+            left: 0;
+            text-align: left;
+        }
     }
 }
