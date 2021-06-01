@@ -80,7 +80,9 @@
 
 // SAFARI
 @media screen and (-webkit-min-device-pixel-ratio:0)
-and (-webkit-max-device-pixel-ratio:2) {
+    and (-webkit-max-device-pixel-ratio:2)
+    and (min-device-width: 300px) 
+    and (max-device-width: 812px)  {
     .section {
         width: 100%;
 
