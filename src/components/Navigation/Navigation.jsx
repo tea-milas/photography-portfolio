@@ -31,7 +31,7 @@ const Navigation = () => {
                                 <button className={styles.close} onClick={() => setIsOpen(false)}>X</button>
                                 <ul>
                                     <li><Link to="/">Work</Link></li>
-                                    <li> <Link to="/contact">Contact</Link></li>
+                                    <li> <Link to="/Contact">Contact</Link></li>
                                 </ul>
                             </div>
                             }
@@ -40,7 +40,7 @@ const Navigation = () => {
                         <h2><Link to="/">Tea Milas</Link></h2>
                         <ul>
                             <li><Link to="/">Work</Link></li>
-                            <li> <Link to="/contact">Contact</Link></li>
+                            <li> <Link to="/Contact">Contact</Link></li>
                         </ul>
                     </nav> 
             }
@@ -51,7 +51,7 @@ const Navigation = () => {
                                         <Section information={d} />
                                     </Route>
                     )}
-                <Route path="/contact">
+                <Route path="/Contact">
                     <Contact />
                 </Route>
                 <Route path="/">
