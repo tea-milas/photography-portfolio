@@ -56,7 +56,6 @@
     
         .images {
             margin-bottom: 110px;
-            height: auto;
             width: 90%;
             display: flex;
             flex-wrap: wrap;
@@ -64,8 +63,8 @@
     
             img {
                 max-height: 500px;
+                min-height: 200px;
                 width: 100%;
-                margin: 0.5em;
             }
         }
         
