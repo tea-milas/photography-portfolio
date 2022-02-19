@@ -9,8 +9,3 @@ This is my photography portfolio website made in React.
 - React
 - JavaScript (ES6)
 - SCSS
-
-## Note
-* need to add lazy loading so the photos load faster
-* There's a problem with the CSS in Safari, so I need to figure that out. But it looks great on android. 
-* need to write a propper text for the contact page
