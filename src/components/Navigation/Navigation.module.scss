@@ -52,9 +52,15 @@ nav {
   }
 
   .hamburger {
+    color: black;
     padding-right: 0;
     font-size: 50px;
     margin-right: 20px;
+
+    &:hover {
+      color: #cc4124;
+      cursor: pointer;
+    }
   }
 }
 
@@ -67,22 +73,23 @@ nav {
     right: 0;
 
     h2 {
-      margin-left: 20px;
+      margin-left: 25px;
     }
 
     .hamburger {
       padding-right: 0;
       font-size: 40px;
-      margin-right: 20px;
+      margin-right: 25px;
     }
 
     .mobile_menu {
       z-index: 2;
-      position: fixed;
+      position: absolute;
+      bottom: 0;
       top: 0;
       right: 0;
       height: 100vh;
-      width: 100%;
+      width: 100vw;
       background-color: black;
       margin: 0;
 
@@ -93,8 +100,8 @@ nav {
       .close {
         font-size: 26px;
         position: absolute;
-        top: 25px;
-        right: 0;
+        top: 30px;
+        right: 0px;
         color: white;
         margin-right: 26px;
       }
@@ -122,20 +129,23 @@ nav {
   }
 }
 
-// // SAFARI
-// @media screen and (-webkit-min-device-pixel-ratio: 0) and (-webkit-max-device-pixel-ratio: 2) {
-//   nav {
-//     .hamburger {
-//     }
+// SAFARI
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (-webkit-max-device-pixel-ratio: 2) {
+  nav {
+    .hamburger {
+      padding-right: 0;
+      font-size: 50px;
+      margin-right: 25px;
+    }
 
-//     .mobile_menu {
-//       .close {
-//         font-size: 26px;
-//         position: absolute;
-//         top: 25px;
-//         right: 0;
-//         margin-right: 0px;
-//       }
-//     }
-//   }
-// }
+    .mobile_menu {
+      .close {
+        font-size: 26px;
+        position: absolute;
+        top: 25px;
+        right: 0;
+        margin-right: 0px;
+      }
+    }
+  }
+}

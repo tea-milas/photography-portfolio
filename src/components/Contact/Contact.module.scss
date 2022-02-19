@@ -8,7 +8,7 @@
   flex-wrap: wrap;
 
   img {
-      width: 400px;
+    width: 400px;
   }
 
   .contact_text {
@@ -19,27 +19,45 @@
       display: flex;
       flex-direction: column;
 
-      input, select, textarea, option, button {
+      input,
+      select,
+      textarea,
+      option,
+      button {
         font-family: inherit;
         font-size: 15px;
-        border: 1px solid rgb(233, 233, 232) ;
+        border: 1px solid rgb(233, 233, 232);
         border-radius: 5px;
         padding: 4px 0;
+        color: black;
+
+        &:focus,
+        &:active,
+        &::selection {
+          border-color: #cc4124;
+        }
       }
 
-      textarea, input {
+      textarea,
+      input {
         padding-left: 10px;
       }
 
-      label, button {
+      label,
+      button {
         margin: 2% 0;
       }
 
-      button:hover , button:active {
-        background-color: #cc4124;
-        border-color: #cc4124;
-        color: white;
-        cursor: pointer;
+      button {
+        background-color: lightgray;
+        color: black;
+        &:hover,
+        &:active {
+          background-color: #cc4124;
+          border-color: #cc4124;
+          color: white;
+          cursor: pointer;
+        }
       }
     }
 
@@ -49,26 +67,22 @@
   }
 }
 
-@media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-      .contact {
-          margin: 2em auto;
-          img {
-            margin-top: 3em;
-            margin-bottom: 1em;
-            width: 300px;
-            border-radius: 5px;
-          }
-          .contact_text {
-            width: 100%;
+@media only screen and (min-device-width: 300px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 1) {
+  .contact {
+    margin: 2em auto;
+    img {
+      margin-top: 3em;
+      margin-bottom: 1em;
+      width: 300px;
+      border-radius: 5px;
+    }
+    .contact_text {
+      width: 100%;
 
-            p {
-              width:100%;
-              margin-bottom: 15%;
-            }
-          }
-
+      p {
+        width: 100%;
+        margin-bottom: 15%;
       }
+    }
   }
+}

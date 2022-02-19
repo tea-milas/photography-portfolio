@@ -22,6 +22,7 @@ const Section = (props) => {
   };
 
   const goToNext = () => {
+    document.getElementById("title").scrollIntoView();
     history.push("/" + next);
     nextTitle(next);
   };
@@ -33,7 +34,7 @@ const Section = (props) => {
 
   return (
     <div className={styles.section}>
-      <h1>{information.title}</h1>
+      <h1 id="title">{information.title}</h1>
       <div className={styles.images}>
         {information.photos.map((p) =>
           p.img ? (
